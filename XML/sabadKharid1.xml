@@ -1,0 +1,110 @@
+<page  clearBackStack="true" background="#F4F4F7" toolbarcolor="#FA4A0C" title="سبد خرید" statusbarcolor="#FA4A0C" scrollable="true">
+	 
+
+    <frame background="#ffffff" borderCornerRadius="14" padding="10">
+     	
+          	<frame layout="linear_vertical"margin="0" padding="0">
+              <text width="100" height="50" gravity="center"  textcolor="#FA4A0C"  textsize="20">سبد خرید</text>
+        
+    		</frame>     	
+    
+   </frame>
+  
+  
+  
+  
+  <frame  layout="linear_vertical" height="wrap_content" margin_top="20">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      
+          
+          <frame layout="linear_horizontal" padding_left="15" padding_right="10" margin_top="0">
+              <text  id="foodName"  gravity="left" textsize="13"  margin_top="-20">املت</text>
+          <frame layout="linear_vertical" >
+            <text  id="foodCost"   gravity="center" textsize="13"  textcolor="#FA4A0C">20000</text>
+             <frame background="#FA4A0C" borderCornerRadius="5" width="100" >
+            	<text id="down" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">-</text>
+            	<text  id="number"  gravity="center" background="#FA4A0C"  textcolor="white" textsize="13" height="25">1</text>
+            	<text  id="up" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">+</text>
+        	</frame>
+          </frame>
+          =</frame>
+	
+    </frame>   	
+    </frame>
+    
+  
+  </frame>
+  
+  
+     <frame  layout="linear_vertical" height="wrap_content" margin_top="10">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      
+          
+          <frame layout="linear_horizontal" padding_left="15" padding_right="10" margin_top="0">
+              <text  id="foodName"  gravity="left" textsize="13"  margin_top="-20">سیب زمینی</text>
+          <frame layout="linear_vertical" >
+            <text  id="foodCost"   gravity="center" textsize="13"  textcolor="#FA4A0C">15000</text>
+             <frame background="#FA4A0C" borderCornerRadius="5" width="100" >
+            	<text id="down" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">-</text>
+            	<text  id="number"  gravity="center" background="#FA4A0C"  textcolor="white" textsize="13" height="25">1</text>
+            	<text  id="up" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">+</text>
+        	</frame>
+          </frame>
+          </frame>
+	
+    </frame>   	
+    </frame>
+  </frame>
+	
+  
+     <frame  layout="linear_vertical" height="wrap_content" margin_top="10" padding_top="300">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      
+          
+          <frame layout="linear_horizontal" padding_left="15" padding_right="10" margin_top="0">
+              <text  id="foodName"  gravity="left" textsize="13"  margin_top="-20">چای</text>
+          <frame layout="linear_vertical" >
+            <text  id="foodCost"   gravity="center" textsize="13"  textcolor="#FA4A0C">2000</text>
+             <frame background="#FA4A0C" borderCornerRadius="5" width="100" >
+            	<text id="down" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">-</text>
+            	<text  id="number"  gravity="center" background="#FA4A0C"  textcolor="white" textsize="13" height="25">1</text>
+            	<text  id="up" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">+</text>
+        	</frame>
+          </frame>
+          </frame>
+	
+    </frame>   	
+    </frame>
+  </frame>
+  
+  
+  
+  
+  	
+  
+  
+  <footer background="#FFFFFF" layout="linear_vertical">
+      
+            
+         
+             
+          	<frame borderColor="black" borderCornerRadius="8" >
+                
+              	 <button progressBarRadius="11" width="50" progressBarColor="white" borderCornerRadius="8" onClick="" background="#FA4A0C" textcolor="#FFFFFF" borderColor="#FA4A0C" borderStrokeWidth="0.5">بازگشت</button>
+     			<text  id="foodName"  width="20"  textsize="15"  textcolor="#FA4A0C">37000</text>
+                 <text  id="foodName" width="20"   textsize="15"  textcolor="#FA4A0C">مبلغ کل:</text>
+              <button progressBarRadius="11" width="50"  progressBarColor="white" borderCornerRadius="8" onClick="" background="#FA4A0C" textcolor="#FFFFFF" borderColor="#FA4A0C" borderStrokeWidth="0.5">ثبت سفارش</button>
+     
+    </frame>     	
+      	
+      
+     	
+  	</footer>
+  	
+</page>

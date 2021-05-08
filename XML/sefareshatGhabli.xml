@@ -1,0 +1,108 @@
+<page  clearBackStack="true" background="#F4F4F7" toolbarcolor="#FA4A0C" title="سفارشات قبلی" statusbarcolor="#FA4A0C" scrollable="true">
+	 
+
+    <frame background="#ffffff" borderCornerRadius="14" padding="10">
+     	
+          	<frame layout="linear_vertical"margin="0" padding="0">
+              <text width="200" height="50" gravity="center"  textcolor="#FA4A0C"  textsize="20">سفارشات قبلی</text>
+        
+    		</frame>     	
+    
+   </frame>
+  
+    
+  <frame  layout="linear_vertical" height="wrap_content" margin_bottom="0">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+      
+      
+      
+      
+     	<frame id="" layout="linear_vertical"margin_top="10"  >
+          		 <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+             		 <text  id="foodName"  gravity="left" textsize="13" >ساعت: 12:00</text>
+              		<text  id="foodCost"   gravity="right" textsize="13"  >تاریخ: 1400/02/01</text>
+       			</frame>
+          
+                <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                      <text  id="foodName"  gravity="left" textsize="13" >2000</text>
+                      <text  id="foodCost"   gravity="right" textsize="13"  >چای (1)</text>
+        		</frame>
+          
+            
+                <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                      <text  id="foodName"  gravity="left" textsize="13" >مبلغ کل : 2000</text>
+                      <text  id="foodCost"   gravity="right" textsize="13"  >کد سفارش : 1235</text>
+     		   </frame>
+          	<frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                     
+              <button id="" gravity="center" background="#FA4A0C" height="40" textsize="13" borderCornerRadius="10" textcolor="white">سفارش مجدد</button>
+              <text  id="foodCost"   gravity="center"  height="40" textsize="13"  background="#FA4A0C" borderCornerRadius="10" textcolor="white">درحال آماده سازی</text>
+     		   </frame>
+ 				
+    </frame>   	
+    </frame>
+    </frame>
+  
+  
+  
+  
+  <frame  layout="linear_vertical" height="wrap_content" margin_bottom="00">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+      
+      
+      
+      
+     	<frame id="" layout="linear_vertical"margin_top="10"  >
+          		 <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+             		 <text  id="foodName"  gravity="left" textsize="13" >ساعت : 11:44</text>
+              		<text  id="foodCost"   gravity="right" textsize="13"  >تاریخ: 1400/0124</text>
+       			</frame>
+          
+                <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                      <text  id="foodName"  gravity="left" textsize="13" >20000</text>
+                      <text  id="foodCost"   gravity="right" textsize="13"  >املت (1)</text>
+        		</frame>
+          
+                <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                      <text  id="foodName"  gravity="left" textsize="13" >15000</text>
+                      <text  id="foodCost"   gravity="right" textsize="13"  >سیب زمینی(1)</text>
+       			 </frame>
+                <frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                      <text  id="foodName"  gravity="left" textsize="13" >مبلغ کل : 35000</text>
+                      <text  id="foodCost"   gravity="right" textsize="13"  >کد سفارش : 1234</text>
+     		   </frame>
+          	<frame layout="linear_horizontal" padding_left="15" padding_right="10">
+                     
+              <button id="" gravity="center" background="#FA4A0C" height="40" textsize="13" borderCornerRadius="10" textcolor="white">سفارش مجدد</button>
+              <text  id="foodCost"   gravity="center"  height="40" textsize="13"  background="#FA4A0C" borderCornerRadius="10" textcolor="white">تحویل شده</text>
+     		   </frame>
+ 				
+    </frame>   	
+    </frame>
+    </frame>
+  
+  
+  
+
+  
+
+ 
+  <footer background="#FFFFFF" layout="linear_horizontal">
+      
+      	
+          	<frame borderColor="black" borderCornerRadius="8" width="35" >
+              	 <button progressBarRadius="11" progressBarColor="white" borderCornerRadius="8" onClick="" background="#FFFFFF" textcolor="#FA4A0C" borderColor="#FA4A0C" borderStrokeWidth="0.5">بازگشت</button>
+          </frame>     	
+      	
+      
+     	
+  	</footer>
+  
+
+  
+  
+	
+ 
+</page>

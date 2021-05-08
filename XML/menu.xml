@@ -1,0 +1,81 @@
+<page  clearBackStack="true" background="#F4F4F7" toolbarcolor="#FA4A0C" title="بوفه" statusbarcolor="#FA4A0C" scrollable="true">
+	 
+
+    <frame background="#ffffff" borderCornerRadius="14" padding="10">
+     	 <image  margin_left="50" width="40" height="40" gravity="left" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/basket.png"></image>
+      
+          	<frame layout="linear_vertical"margin="0" padding="0">
+              <image width="170" height="50" gravity="center" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/BeheshtiFood.png"></image>
+        
+    		</frame>     	
+  	 <image  margin_right="50" width="40" height="40" gravity="right" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/history.png"></image>
+      
+   </frame>
+  
+  
+  <frame background="#F4F4F7" borderCornerRadius="11">
+     	 <button  margin_left="50" width="100" height="40" gravity="center" background="#F4F4F7" textcolor="#949191" textsize="13"> نوشیدنی</button>
+     <button  width="100" height="40" gravity="center"background="#F4F4F7" textcolor="#949191" textsize="13" > تنقلات</button>
+     <button  margin_right="50" width="100" height="40" gravity="center" background="#F4F4F7" textcolor="#FA4A0C" textsize="13" borderColor="#FA4A0C" borderStrokeWidth="0.5"> غذا</button>
+         	
+   </frame>
+  
+ 
+  
+  
+  <frame  layout="linear_vertical" height="wrap_content" margin_bottom="10">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      	<frame  borderCornerRadius="11" width="160" height="140">
+          <image id="profile-image" width="match_parent" height="match_parent" borderCornerRadius="11"  src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/Foods/omlet.jpg" borderStrokeWidth="1"></image>
+      	</frame>
+          
+          <frame layout="linear_horizontal" padding_left="15" padding_right="10" margin_top="0">
+              <text  id="foodName"  gravity="left" textsize="13"  margin_top="-20">املت</text>
+          <frame layout="linear_vertical" >
+            <text  id="foodCost"   gravity="center" textsize="13"  textcolor="#FA4A0C">20000</text>
+             <frame background="#FA4A0C" borderCornerRadius="5" width="100" >
+            	<text id="down" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">-</text>
+            	<text  id="number"  gravity="center" background="#FA4A0C"  textcolor="white" textsize="13" height="25">0</text>
+            	<text  id="up" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">+</text>
+        	</frame>
+          </frame>
+                    	</frame>
+	
+    </frame>   	
+    </frame>
+    
+  
+  </frame>
+  
+  
+   <frame  layout="linear_vertical" height="wrap_content" margin_bottom="10">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      	<frame  borderCornerRadius="11" width="160" height="140">
+          <image id="profile-image" width="match_parent" height="match_parent" borderCornerRadius="11"  src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/Foods/sibzamini.jpg" borderStrokeWidth="1"></image>
+      	</frame>
+          
+          <frame layout="linear_horizontal" padding_left="15" padding_right="10" margin_top="0">
+              <text  id="foodName"  gravity="left" textsize="13"  margin_top="-20">سیب زمینی</text>
+          <frame layout="linear_vertical" >
+            <text  id="foodCost"   gravity="center" textsize="13"  textcolor="#FA4A0C">15000</text>
+             <frame background="#FA4A0C" borderCornerRadius="5" width="100" >
+            	<text id="down" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">-</text>
+            	<text  id="number"  gravity="center" background="#FA4A0C"  textcolor="white" textsize="13" height="25">0</text>
+            	<text  id="up" gravity="center" background="#FA4A0C" textcolor="white" textsize="13" height="25">+</text>
+        	</frame>
+          </frame>
+                    	</frame>
+	
+    </frame>   	
+    </frame>
+    
+  
+  </frame>
+	
+  	
+  	
+</page>

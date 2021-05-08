@@ -1,0 +1,40 @@
+<page  clearBackStack="true" background="#F4F4F7" toolbarcolor="#FA4A0C" title="ثبت سفارش" statusbarcolor="#FA4A0C" scrollable="false">
+	 
+
+    <frame background="#ffffff" borderCornerRadius="14" padding="10">
+     	
+          	<frame layout="linear_vertical"margin="0" padding="0">
+               <image width="160" height="50" gravity="center" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/BeheshtiFood.png"></image>
+        
+    		</frame>     	
+    
+   </frame>
+  
+  
+  
+  
+  <frame  layout="linear_vertical" height="wrap_content" margin_top="20">
+    
+    <frame background="#ffffff" margin_left="20" margin_right="20" borderCornerRadius="11">
+     	<frame layout="linear_vertical"margin_top="10"  >
+      <image  width="120" height="120" gravity="center" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/Logo.png"></image>
+      <text  id="text"  gravity="center"  textcolor="black" textsize="17">سفارش شما ثبت شد</text>
+       <text  id="text"  gravity="center"  textcolor="black" textsize="17">زمان تقریبی آماده سازی : 20 دقیقه</text>
+       <text  id="text"  gravity="center"  textcolor="black" textsize="17">کد سفارش : 1234</text>
+            
+
+	
+    </frame>   	
+    </frame>
+    
+  
+  </frame>
+  
+  
+	
+  	<frame scrollable="false"  layout="linear_vertical" margin_top="100" margin_bottom="50" padding_bottom="100" >
+         	<button progressBarRadius="11" progressBarColor="white" borderCornerRadius="8" onClick=""  textcolor="white" textsize="14" background="#FA4A0C" height="40" width="150"margin_left="50" margin_right="50">بازگشت</button>
+   	
+      	</frame>
+  	
+</page>

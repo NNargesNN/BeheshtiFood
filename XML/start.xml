@@ -1,0 +1,13 @@
+<page id="startingPage" clearBackStack="true"  background="#ffe1d6" toolbarcolor="#FA4A0C" title="بهشتی فود" statusbarcolor="#FA4A0C" scrollable="false">
+
+  
+  <frame layout="linear_vertical" >
+    <image width="170" height="70" margin_bottom="0" src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/BeheshtiFood.png"></image>
+        <image  width="200"  height="200"src="https://raw.githubusercontent.com/NNargesNN/BeheshtiFood/main/Images/Logo.png"></image>
+               
+  </frame>
+    
+    <frame scrollable="true"  layout="linear_vertical" margin_top="100" >
+        <button progressBarRadius="11" progressBarColor="white" borderCornerRadius="8"   textcolor="white" textsize="15" background="#FA4A0C"  margin_left="100" margin_right="100">شروع سفارش</button>
+    </frame>
+</page>
